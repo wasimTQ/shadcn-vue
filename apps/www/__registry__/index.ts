@@ -457,6 +457,13 @@ export const Index = {
       component: () => import('../src/lib/registry/default/example/RadioGroupForm.vue').then(m => m.default),
       files: ['../src/lib/registry/default/example/RadioGroupForm.vue'],
     },
+    ResizableDemo: {
+      name: 'ResizableDemo',
+      type: 'components:example',
+      registryDependencies: ['checkbox'],
+      component: () => import('../src/lib/registry/default/example/ResizableDemo.vue').then(m => m.default),
+      files: ['../src/lib/registry/default/example/ResizableDemo.vue'],
+    },
     ScrollAreaDemo: {
       name: 'ScrollAreaDemo',
       type: 'components:example',
